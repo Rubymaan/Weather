@@ -1,0 +1,68 @@
+body{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: pink;
+  height: 100vh;
+  background-image:  url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.card{
+  width: 100%;
+  max-width: 420px;
+  color: white;
+  border-radius: 30px;
+  background: #000000d0;
+  padding:2em;
+  margin :1rem;
+}
+.search{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.searchbar{
+  margin: 0.5em;
+  background-color: #7c7c7c2b;
+  color:white;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  height:1.5em;
+  width: 18em;
+  font-size: 110%;
+
+
+}
+
+.searchbutton{
+margin:0.2em;
+padding:0.2em;
+border-radius: 50%;
+border: none;
+outline: none;
+height:3.5em;
+width:3.5em;
+background-color: #7c7c7c2b;
+color: white;
+cursor: pointer;
+
+}
+
+.searchbutton:hover{
+  background-color: #7c7c7c6d;
+}
+
+.weather{
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.description{
+  text-transform: capitalize;
+}
