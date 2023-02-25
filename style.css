@@ -7,7 +7,7 @@ body{
   background-color: pink;
   height: 100vh;
   background-image:  url('https://source.unsplash.com/1600x900/?landscape');
-  font-size: 80%;
+  font-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ body{
   border-radius: 30px;
   background: #000000d0;
   padding:2em;
-  margin :1rem;
+  margin:1rem;
 }
 .search{
 display: flex;
