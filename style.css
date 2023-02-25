@@ -7,6 +7,11 @@ body{
   background-color: pink;
   height: 100vh;
   background-image:  url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .card{
